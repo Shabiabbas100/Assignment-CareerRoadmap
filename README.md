@@ -5,8 +5,7 @@ A full-stack application designed to analyze a user's current skills against a t
 ---
 
 ## 🔗 Live Demo
-- **Frontend (Live App):** [REPLACE_WITH_YOUR_VERCEL_LINK] (e.g., https://career-app.vercel.app)
-- **Backend (API):** [REPLACE_WITH_YOUR_RENDER_LINK] (e.g., https://career-backend.onrender.com)
+- **(Live App):** [https://career-roadmap-nine.vercel.app/] 
 
 ---
 
