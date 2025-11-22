@@ -5,7 +5,7 @@ A full-stack application designed to analyze a user's current skills against a t
 ---
 
 ## 🔗 Live Demo
-- **(Live App):** [https://career-roadmap-nine.vercel.app/] 
+- **(Live App):** https://career-roadmap-nine.vercel.app/ 
 
 ---
 
@@ -53,15 +53,25 @@ career-assignment/
     │   └── api.js        # Centralized API calls
 ```
 ## 🚀 How to Run This Project Locally
+
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/career-assignment.git
-cd career-assignment
+git clone https://github.com/Shabiabbas100/Assignment-CareerRoadmap
+cd Assignment-CareerRoadmap
 ```
 ### 1️⃣ Backend Setup
 ```bash
 cd backend
+npm install
+Start Server:
+npm run start
+# Server should run on http://localhost:5000
+```
+### 1️⃣ Frontend Setup
+```bash
+cd ../frontend
 npm install          # Install dependencies
-cp .env.example .env # Create .env file and set your environment variables
-npm run dev          # Start the backend server (usually on http://localhost:5000)
+Configuration: Create a .env file in the frontend folder and add:
+VITE_API_URL=http://localhost:5000/api
+npm run dev          # Start the frontend (usually on http://localhost:5000)
 ```
