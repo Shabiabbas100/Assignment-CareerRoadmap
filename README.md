@@ -1,0 +1,68 @@
+# 🚀 Career Skill Gap Analyzer & Roadmap Generator
+
+A full-stack application designed to analyze a user's current skills against a target job role, identify skill gaps, and generate a personalized learning roadmap. It also features a live tech news feed powered by the HackerNews API.
+
+---
+
+## 🔗 Live Demo
+- **Frontend (Live App):** [REPLACE_WITH_YOUR_VERCEL_LINK] (e.g., https://career-app.vercel.app)
+- **Backend (API):** [REPLACE_WITH_YOUR_RENDER_LINK] (e.g., https://career-backend.onrender.com)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js (Vite):** For fast and optimized UI development.
+- **Tailwind CSS:** For responsive and modern styling.
+- **Axios:** For handling API requests.
+- **Lucide React:** For icons.
+
+### Backend
+- **Node.js & Express.js:** RESTful API architecture.
+- **MVC Pattern:** Clean code structure (Controllers, Services, Routes).
+- **Cors & Helmet:** For security and cross-origin resource sharing.
+
+---
+
+## ✨ Features
+1.  **Skill Gap Analysis:** Compares user skills with industry standards for roles like Frontend Developer, Backend Developer, and Data Analyst.
+2.  **Career Roadmap:** Generates a phase-wise learning path (Mock AI Logic).
+3.  **Tech News Feed:** Fetches top 5 real-time tech stories using the **HackerNews Public API**.
+4.  **Clean UI:** Responsive design with a professional dashboard layout.
+
+---
+
+## 📂 Folder Structure (Professional MVC)
+The project follows a scalable directory structure:
+
+```bash
+career-assignment/
+├── backend/
+│   ├── src/
+│   │   ├── config/       # Environment variables
+│   │   ├── controllers/  # Request handlers
+│   │   ├── services/     # Business logic
+│   │   ├── routes/       # API endpoints
+│   │   └── utils/        # Helper functions & Mock Data
+│   └── server.js         # Entry point
+│
+└── frontend/
+    ├── src/
+    │   ├── components/   # Reusable UI components
+    │   ├── pages/        # Main application pages
+    │   └── api.js        # Centralized API calls
+```
+## 🚀 How to Run This Project Locally
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/career-assignment.git
+cd career-assignment
+```
+### 1️⃣ Backend Setup
+```bash
+cd backend
+npm install          # Install dependencies
+cp .env.example .env # Create .env file and set your environment variables
+npm run dev          # Start the backend server (usually on http://localhost:5000)
+```
